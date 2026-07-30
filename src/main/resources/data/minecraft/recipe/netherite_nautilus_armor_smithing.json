@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:netherite_ingot",
+  "base": "minecraft:golden_nautilus_armor",
+  "result": {
+    "id": "minecraft:netherite_nautilus_armor"
+  },
+  "template": "minecraft:netherrack"
+}

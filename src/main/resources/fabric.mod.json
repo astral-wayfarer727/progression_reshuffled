@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "progression_reshuffled",
+	"version": "${version}",
+	"name": "Progression Reshuffled",
+	"description": "A mod that focuses on reworking Minecraft's Progression, from Mob Tweaks to Tool Rebalancing",
+	"authors": [
+		"Astral Wayfarer"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/progression-reshuffled",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/progression-reshuffled/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"astro.progression_reshuffled.ProgressionReshuffled"
+		],
+		"fabric-datagen": [
+			"astro.progression_reshuffled.PRDataGenerator"
+		],
+		"client": [
+			"astro.progression_reshuffled.PRClient"
+		]
+	},
+	"mixins": [
+		"progression_reshuffled.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

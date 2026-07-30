@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "progression_reshuffled:endanium_ingot",
+  "base": "minecraft:diamond_helmet",
+  "result": {
+    "id": "progression_reshuffled:endanium_helmet"
+  },
+  "template": "minecraft:end_stone"
+}

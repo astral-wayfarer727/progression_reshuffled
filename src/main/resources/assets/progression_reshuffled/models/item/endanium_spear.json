@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "progression_reshuffled:item/endanium_spear"
+  }
+}

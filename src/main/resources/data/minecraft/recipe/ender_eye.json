@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " # ",
+    "#E#",
+    " # "
+  ],
+  "key": {
+    "#": [
+      "minecraft:blaze_powder",
+      "minecraft:echo_shard",
+      "minecraft:wind_charge",
+      "minecraft:prismarine_shard"
+    ],
+    "E": "minecraft:ender_pearl"
+  },
+  "result": {
+    "id": "minecraft:ender_eye",
+    "count": 4
+  }
+}

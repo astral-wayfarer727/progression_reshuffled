@@ -1,0 +1,24 @@
+{
+	"required": true,
+	"package": "astro.progression_reshuffled.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ArmorMaterialMixin",
+		"BlazeNerfMixin",
+		"CaveSpiderBuffMixin",
+		"EndermanStepUpMixin",
+		"IronGolemBuffMixin",
+		"SkeletonReworkMixin",
+		"SpiderBuffMixin",
+		"ToolMaterialMixin",
+		"WitherSkeletonMixin",
+		"WolfBuffMixin",
+		"ZombieBuffMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

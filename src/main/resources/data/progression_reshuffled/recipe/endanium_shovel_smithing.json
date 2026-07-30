@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "progression_reshuffled:endanium_ingot",
+  "base": "minecraft:diamond_shovel",
+  "result": {
+    "id": "progression_reshuffled:endanium_shovel"
+  },
+  "template": "minecraft:end_stone"
+}

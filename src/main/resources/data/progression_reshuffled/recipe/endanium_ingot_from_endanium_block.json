@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "progression_reshuffled:endanium_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "progression_reshuffled:endanium_ingot"
+  }
+}

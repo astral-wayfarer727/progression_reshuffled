@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "progression_reshuffled:endanium_ingot",
+  "base": "minecraft:diamond_chestplate",
+  "result": {
+    "id": "progression_reshuffled:endanium_chestplate"
+  },
+  "template": "minecraft:end_stone"
+}

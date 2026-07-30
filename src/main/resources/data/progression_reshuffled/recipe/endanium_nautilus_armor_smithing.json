@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "progression_reshuffled:endanium_ingot",
+  "base": "minecraft:diamond_nautilus_armor",
+  "result": {
+    "id": "progression_reshuffled:endanium_nautilus_armor"
+  },
+  "template": "minecraft:end_stone"
+}

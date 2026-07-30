@@ -1,0 +1,32 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "location": "progression_reshuffled:endanium_crater/endanium_crater_b",
+        "processors": "progression_reshuffled:endanium_crater_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "progression_reshuffled:endanium_crater/endanium_crater_a",
+        "processors": "progression_reshuffled:endanium_crater_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "progression_reshuffled:endanium_crater/endanium_crater_c",
+        "processors": "progression_reshuffled:endanium_crater_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

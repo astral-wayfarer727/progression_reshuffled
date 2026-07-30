@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "progression_reshuffled:endanium_ingot",
+  "base": "minecraft:diamond_pickaxe",
+  "result": {
+    "id": "progression_reshuffled:endanium_pickaxe"
+  },
+  "template": "minecraft:end_stone"
+}

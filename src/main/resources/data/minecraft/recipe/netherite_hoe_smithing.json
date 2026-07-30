@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:netherite_ingot",
+  "base": "minecraft:golden_hoe",
+  "result": {
+    "id": "minecraft:netherite_hoe"
+  },
+  "template": "minecraft:netherrack"
+}

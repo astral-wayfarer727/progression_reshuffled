@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "progression_reshuffled:endanium_ingot",
+  "base": "minecraft:diamond_horse_armor",
+  "result": {
+    "id": "progression_reshuffled:endanium_horse_armor"
+  },
+  "template": "minecraft:end_stone"
+}

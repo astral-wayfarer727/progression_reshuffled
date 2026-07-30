@@ -1,0 +1,24 @@
+{
+  "layers": {
+    "horse_body": [
+      {
+        "texture": "progression_reshuffled:endanium"
+      }
+    ],
+    "humanoid": [
+      {
+        "texture": "progression_reshuffled:endanium"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "progression_reshuffled:endanium"
+      }
+    ],
+    "nautilus_body": [
+      {
+        "texture": "progression_reshuffled:endanium"
+      }
+    ]
+  }
+}

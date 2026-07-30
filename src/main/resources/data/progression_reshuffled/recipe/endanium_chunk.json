@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "ingredient": "progression_reshuffled:stellar_rubble",
+  "result": {
+    "id": "progression_reshuffled:endanium_chunk"
+  }
+}
