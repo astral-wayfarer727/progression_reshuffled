@@ -71,7 +71,7 @@ public interface ArmorMaterialMixin {
 		if (original.repairIngredient() == REPAIRS_GOLD_ARMOR) {
 			return new ArmorMaterial(
 					25,
-					createDefenseMap(2,5,7,3,7),
+					createDefenseMap(3, 6, 8, 3, 11),
 					20,
 					original.equipSound(),
 					2.15F,
@@ -83,7 +83,7 @@ public interface ArmorMaterialMixin {
 		if (original.repairIngredient() == REPAIRS_DIAMOND_ARMOR) {
 			return new ArmorMaterial(
 					30,
-					original.defense(),
+					createDefenseMap(2,5,7,3,10),
 					20,
 					original.equipSound(),
 					original.toughness(),
