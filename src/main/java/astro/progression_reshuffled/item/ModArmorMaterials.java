@@ -1,6 +1,5 @@
 package astro.progression_reshuffled.item;
 
-
 import astro.progression_reshuffled.tags.ModTags;
 import astro.progression_reshuffled.util.ModEquipmentAssets;
 import net.minecraft.item.equipment.ArmorMaterial;

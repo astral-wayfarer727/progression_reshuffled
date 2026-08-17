@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:story/obtain_iron_armor",
+  "criteria": {
+    "gold_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_helmet"
+          },
+          {
+            "items": "minecraft:golden_chestplate"
+          },
+          {
+            "items": "minecraft:golden_leggings"
+          },
+          {
+            "items": "minecraft:golden_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.story.obtain_gold_armor.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:golden_chestplate"
+    },
+    "title": {
+      "translate": "advancements.story.obtain_gold_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "gold_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

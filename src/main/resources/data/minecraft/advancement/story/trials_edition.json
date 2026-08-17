@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:story/form_obsidian",
+  "criteria": {
+    "trial_chambers": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:trial_chambers"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.story.trial_edition.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:chiseled_tuff"
+    },
+    "title": {
+      "translate": "advancements.story.trial_edition.title"
+    }
+  },
+  "requirements": [
+    [
+      "trial_chambers"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

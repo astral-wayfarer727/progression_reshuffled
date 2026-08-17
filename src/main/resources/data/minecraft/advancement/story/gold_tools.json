@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:story/smelt_gold",
+  "criteria": {
+    "golden_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "description": {
+      "translate": "advancements.story.gold_tools.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:golden_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.story.gold_tools.title"
+    }
+  },
+  "requirements": [
+    [
+      "golden_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

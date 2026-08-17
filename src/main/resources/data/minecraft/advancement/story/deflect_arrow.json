@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:story/obtain_iron_armor",
+  "criteria": {
+    "craft_shield": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shield"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.story.deflect_arrow.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "advancements.story.deflect_arrow.title"
+    }
+  },
+  "requirements": [
+    [
+      "craft_shield"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

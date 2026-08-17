@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:story/obtain_iron_armor",
+  "criteria": {
+    "diamond_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_helmet"
+          },
+          {
+            "items": "minecraft:diamond_chestplate"
+          },
+          {
+            "items": "minecraft:diamond_leggings"
+          },
+          {
+            "items": "minecraft:diamond_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.story.obtain_diamond_armor.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:diamond_chestplate"
+    },
+    "title": {
+      "translate": "advancements.story.obtain_diamond_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "diamond_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

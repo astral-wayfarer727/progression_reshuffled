@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:story/benchmarking",
+  "criteria": {
+    "wooden_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.story.time_to_mine.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:wooden_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.story.time_to_mine.title"
+    }
+  },
+  "requirements": [
+    [
+      "wooden_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

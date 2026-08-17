@@ -13,7 +13,6 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-
 @Mixin(AbstractSkeletonEntity.class)
 public class SkeletonReworkMixin {
     //Adds a high chance for a Skeleton of all types other than Wither to spawn with a Sword of increasing tier + rarity
@@ -23,16 +22,16 @@ public class SkeletonReworkMixin {
     )
     private void swordSkeleton(net.minecraft.util.math.random.Random random, LocalDifficulty localDifficulty, CallbackInfo ci) {
         AbstractSkeletonEntity skeleton = (AbstractSkeletonEntity) (Object) this;
-        if (random.nextFloat() < 0.35f) {
+        if (random.nextFloat() < 0.4f) {
             skeleton.equipStack(EquipmentSlot.MAINHAND, new ItemStack(Items.WOODEN_SWORD));
         }
-        if (random.nextFloat() < 0.15f) {
+        if (random.nextFloat() < 0.2f) {
             skeleton.equipStack(EquipmentSlot.MAINHAND, new ItemStack(Items.STONE_SWORD));
         }
-        if (random.nextFloat() < 0.075f) {
+        if (random.nextFloat() < 0.1f) {
             skeleton.equipStack(EquipmentSlot.MAINHAND, new ItemStack(Items.COPPER_SWORD));
         }
-        if (random.nextFloat() < 0.025f) {
+        if (random.nextFloat() < 0.05f) {
             skeleton.equipStack(EquipmentSlot.MAINHAND, new ItemStack(Items.IRON_SWORD));
         }
     }

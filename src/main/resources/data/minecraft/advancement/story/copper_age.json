@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:story/smelt_copper",
+  "criteria": {
+    "copper_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.story.copper_age.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:copper_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.story.copper_age.title"
+    }
+  },
+  "requirements": [
+    [
+      "copper_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

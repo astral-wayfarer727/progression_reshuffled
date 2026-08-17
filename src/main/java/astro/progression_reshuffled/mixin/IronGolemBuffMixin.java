@@ -20,7 +20,6 @@ public class IronGolemBuffMixin {
                 .add(EntityAttributes.MAX_HEALTH, 150F)
                 .add(EntityAttributes.MOVEMENT_SPEED, 0.3F)
                 .add(EntityAttributes.STEP_HEIGHT, 1.1F)
-                .add(EntityAttributes.ATTACK_KNOCKBACK, 4.0F)
         ;
     }
 }

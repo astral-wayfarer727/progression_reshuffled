@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:story/ocean_monument",
+  "criteria": {
+    "prismarine_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:prismarine_shard"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "description": {
+      "translate": "advancements.story.prismarine_shard.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:prismarine_shard"
+    },
+    "title": {
+      "translate": "advancements.story.prismarine_shard.title"
+    }
+  },
+  "requirements": [
+    [
+      "prismarine_shard"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

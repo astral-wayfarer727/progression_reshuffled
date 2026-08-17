@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:story/obtain_stellar_rubble",
+  "criteria": {
+    "endanium_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "progression_reshuffled:endanium_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "frame": "challenge",
+    "description": {
+      "translate": "advancements.story.endanium_tools.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "progression_reshuffled:endanium_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.story.endanium_tools.title"
+    }
+  },
+  "requirements": [
+    [
+      "endanium_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

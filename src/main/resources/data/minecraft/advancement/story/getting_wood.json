@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "getting_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:logs_that_burn"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.story.getting_wood.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:oak_log"
+    },
+    "title": {
+      "translate": "advancements.story.getting_wood.title"
+    }
+  },
+  "requirements": [
+    [
+      "getting_wood"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

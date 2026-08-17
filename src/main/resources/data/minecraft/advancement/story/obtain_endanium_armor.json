@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:story/shiny_gear",
+  "criteria": {
+    "endanium_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "progression_reshuffled:endanium_helmet"
+          },
+          {
+            "items": "progression_reshuffled:endanium_chestplate"
+          },
+          {
+            "items": "progression_reshuffled:endanium_leggings"
+          },
+          {
+            "items": "progression_reshuffled:endanium_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "hidden": true,
+    "description": {
+      "translate": "advancements.story.obtain_endanium_armor.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "progression_reshuffled:endanium_chestplate"
+    },
+    "title": {
+      "translate": "advancements.story.obtain_endanium_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "endanium_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}
