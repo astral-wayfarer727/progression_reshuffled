@@ -9,8 +9,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 
-import java.util.List;
 import java.util.function.Function;
 
 public class ModItems {
@@ -24,6 +24,8 @@ public class ModItems {
 
     //Have yet to add the trim Material but given that it's purple and Amethyst already is that I'm not too pushed, would like to have it only for the consistency
     //.trimMaterial(ArmorTrimMaterials.ENDANIUM)
+    public static Item ENDANIUM_UPGRADE_SMITHING_TEMPLATE = register("endanium_upgrade_smithing_template", ModTemplateItem::createEndaniumUpgrade, new Item.Settings().rarity(Rarity.UNCOMMON));
+
     public static Item ENDANIUM_INGOT = register("endanium_ingot", Item::new, new Item.Settings());
     public static Item ENDANIUM_CHUNK = register("endanium_chunk", Item::new, new Item.Settings());
 
@@ -42,7 +44,9 @@ public class ModItems {
     public static Item ENDANIUM_HOE = register("endanium_hoe", settings -> new HoeItem(ModToolMaterials.ENDANIUM, -4.0F, 0.0F, settings), new Item.Settings());
     public static Item ENDANIUM_SPEAR = register("endanium_spear", Item::new, new Item.Settings().spear(ModToolMaterials.ENDANIUM, 1.15F, 1.2F, 0.4F, 2.5F, 7.0F, 5.5F, 5.1F, 8.75F, 4.6F));
 
+    public static Item DORMANT_ENCHANTED_BOOK = register("dormant_enchanted_book", Item::new, new Item.Settings().rarity(Rarity.RARE));
 
+    public static Item FALCATE_FIN = register("falcate_fin", Item::new, new Item.Settings());
 
     public static void registerItems() {
         ProgressionReshuffled.LOGGER.info("Registering items for " + ProgressionReshuffled.MOD_ID);
@@ -70,6 +74,11 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.addAfter(Items.NETHERITE_INGOT, ModItems.ENDANIUM_CHUNK);
             entries.addAfter(ModItems.ENDANIUM_CHUNK, ModItems.ENDANIUM_INGOT);
+            entries.addAfter(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE, ModItems.ENDANIUM_UPGRADE_SMITHING_TEMPLATE);
+
+            entries.addAfter(Items.OMINOUS_TRIAL_KEY, ModItems.DORMANT_ENCHANTED_BOOK);
+
+            entries.addAfter(Items.PUFFERFISH, ModItems.FALCATE_FIN);
         });
     }
 }

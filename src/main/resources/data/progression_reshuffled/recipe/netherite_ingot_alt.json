@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "NNN"
+  ],
+  "key": {
+    "#": "minecraft:gold_ingot",
+    "N": "minecraft:netherite_scrap"
+  },
+  "result": {
+    "id": "minecraft:netherite_ingot"
+  }
+}

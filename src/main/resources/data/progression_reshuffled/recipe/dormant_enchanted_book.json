@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " o ",
+    "#B#",
+    " o "
+  ],
+  "key": {
+    "o": "minecraft:amethyst_shard",
+    "#": "minecraft:diamond",
+    "B": "minecraft:book"
+  },
+  "result": {
+    "id": "progression_reshuffled:dormant_enchanted_book"
+  }
+}

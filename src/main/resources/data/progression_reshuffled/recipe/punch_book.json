@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#/#",
+    "WDW",
+    "#P#"
+  ],
+  "key": {
+    "#": "minecraft:experience_bottle",
+    "/": "minecraft:arrow",
+    "W": "minecraft:wind_charge",
+    "D": "progression_reshuffled:dormant_enchanted_book",
+    "P": "minecraft:piston"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:punch": 1
+      }
+    },
+    "count": 1
+  }
+}

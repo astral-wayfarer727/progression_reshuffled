@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#o#",
+    "RDR",
+    "#o#"
+  ],
+  "key": {
+    "#": "minecraft:experience_bottle",
+    "o": "minecraft:echo_shard",
+    "R": "minecraft:rabbit_foot",
+    "D": "progression_reshuffled:dormant_enchanted_book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:swift_sneak": 1
+      }
+    },
+    "count": 1
+  }
+}

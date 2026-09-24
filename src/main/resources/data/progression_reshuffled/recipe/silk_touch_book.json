@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#G#",
+    "SDS",
+    "#G#"
+  ],
+  "key": {
+    "#": "minecraft:experience_bottle",
+    "G": "minecraft:grass_block",
+    "S": "minecraft:stone",
+    "D": "progression_reshuffled:dormant_enchanted_book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:silk_touch": 1
+      }
+    },
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "NNN"
+  ],
+  "key": {
+    "#": "minecraft:diamond",
+    "N": "progression_reshuffled:endanium_chunk"
+  },
+  "result": {
+    "id": "progression_reshuffled:endanium_ingot"
+  }
+}

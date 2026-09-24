@@ -1,4 +1,7 @@
 {
+  "block.progression_reshuffled.advanced_furnace": "Advanced Furnace",
+  "container.progression_reshuffled.advanced_furnace": "Advanced Furnace",
+
   "block.progression_reshuffled.stellar_rubble": "Stellar Rubble",
   "block.progression_reshuffled.endanium_block": "Endanium Block",
 
@@ -17,5 +20,19 @@
   "item.progression_reshuffled.endanium_axe": "Endanium Axe",
   "item.progression_reshuffled.endanium_shovel": "Endanium Shovel",
   "item.progression_reshuffled.endanium_hoe": "Endanium Hoe",
-  "item.progression_reshuffled.endanium_spear": "Endanium Spear"
+  "item.progression_reshuffled.endanium_spear": "Endanium Spear",
+
+  "item.progression_reshuffled.dormant_enchanted_book": "Dormant Enchanted Book",
+
+  "item.progression_reshuffled.falcate_fin": "Falcate Fin",
+  "item.minecraft.potion.effect.dolphins_grace": "Potion of Dolphin's Grace",
+  "item.minecraft.splash_potion.effect.dolphins_grace": "Splash Potion of Dolphin's Grace",
+  "item.minecraft.lingering_potion.effect.dolphins_grace": "Lingering Potion of Dolphin's Grace",
+  "item.minecraft.tipped_arrow.effect.dolphins_grace": "Arrow of Dolphin's Grace",
+
+  "item.progression_reshuffled.endanium_upgrade_smithing_template": "Endanium Upgrade",
+  "item.progression_reshuffled.smithing_template.endanium_upgrade.additions_slot_description": "Add Endanium Ingot",
+  "item.progression_reshuffled.smithing_template.endanium_upgrade.applies_to": "Diamond Equipment",
+  "item.progression_reshuffled.smithing_template.endanium_upgrade.base_slot_description": "Add diamond armor, weapon, or tool",
+  "item.progression_reshuffled.smithing_template.endanium_upgrade.ingredients": "Endanium Ingot"
 }

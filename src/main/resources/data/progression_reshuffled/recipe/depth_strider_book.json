@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#P#",
+    "FDF",
+    "#P#"
+  ],
+  "key": {
+    "#": "minecraft:experience_bottle",
+    "P": "minecraft:prismarine_crystals",
+    "F": "progression_reshuffled:falcate_fin",
+    "D": "progression_reshuffled:dormant_enchanted_book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:depth_strider": 1
+      }
+    },
+    "count": 1
+  }
+}

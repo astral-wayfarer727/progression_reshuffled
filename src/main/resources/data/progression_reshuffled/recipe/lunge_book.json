@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#F#",
+    "fDf",
+    "#/#"
+  ],
+  "key": {
+    "#": "minecraft:experience_bottle",
+    "F": "minecraft:flint",
+    "f": "minecraft:feather",
+    "D": "progression_reshuffled:dormant_enchanted_book",
+    "/": "minecraft:breeze_rod"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:lunge": 1
+      }
+    },
+    "count": 1
+  }
+}

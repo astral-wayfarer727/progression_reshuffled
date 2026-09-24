@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#P#",
+    "pDp",
+    "#P#"
+  ],
+  "key": {
+    "#": "minecraft:experience_bottle",
+    "P": "minecraft:prismarine_crystals",
+    "p": "minecraft:pufferfish",
+    "D": "progression_reshuffled:dormant_enchanted_book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:respiration": 1
+      }
+    },
+    "count": 1
+  }
+}

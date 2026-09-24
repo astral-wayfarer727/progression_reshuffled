@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#H#",
+    "=D=",
+    "#W#"
+  ],
+  "key": {
+    "#": "minecraft:experience_bottle",
+    "H": "minecraft:heavy_core",
+    "=": "minecraft:chiseled_tuff_bricks",
+    "D": "progression_reshuffled:dormant_enchanted_book",
+    "W": "minecraft:wind_charge"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:wind_burst": 1
+      }
+    },
+    "count": 1
+  }
+}

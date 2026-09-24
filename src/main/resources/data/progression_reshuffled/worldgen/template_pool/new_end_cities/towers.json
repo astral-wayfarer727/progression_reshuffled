@@ -1,0 +1,59 @@
+{
+  "fallback": "progression_reshuffled:new_end_cities/room_terminators",
+  "elements": [
+    {
+      "weight": 9,
+      "element": {
+        "location": "progression_reshuffled:new_end_cities/towers/tower_a",
+        "processors": [],
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "progression_reshuffled:new_end_cities/towers/tower_c",
+        "processors": [],
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "progression_reshuffled:new_end_cities/towers/tower_e",
+        "processors": [],
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "progression_reshuffled:new_end_cities/towers/tower_b",
+        "processors": [],
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "progression_reshuffled:new_end_cities/towers/tower_d",
+        "processors": [],
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "progression_reshuffled:new_end_cities/towers/tower_f",
+        "processors": [],
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

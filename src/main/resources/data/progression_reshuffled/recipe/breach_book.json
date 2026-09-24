@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#H#",
+    "=D=",
+    "#A#"
+  ],
+  "key": {
+    "#": "minecraft:experience_bottle",
+    "H": "minecraft:heavy_core",
+    "=": "minecraft:tuff_bricks",
+    "D": "progression_reshuffled:dormant_enchanted_book",
+    "A": "minecraft:armor_stand"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:breach": 1
+      }
+    },
+    "count": 1
+  }
+}

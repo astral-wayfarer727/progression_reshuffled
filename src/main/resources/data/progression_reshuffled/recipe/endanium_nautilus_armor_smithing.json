@@ -5,5 +5,5 @@
   "result": {
     "id": "progression_reshuffled:endanium_nautilus_armor"
   },
-  "template": "minecraft:end_stone"
+  "template": "progression_reshuffled:endanium_upgrade_smithing_template"
 }

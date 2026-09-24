@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#P#",
+    "FDF",
+    "#P#"
+  ],
+  "key": {
+    "#": "minecraft:experience_bottle",
+    "P": "minecraft:phantom_membrane",
+    "F": "minecraft:feather",
+    "D": "progression_reshuffled:dormant_enchanted_book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:feather_falling": 1
+      }
+    },
+    "count": 1
+  }
+}

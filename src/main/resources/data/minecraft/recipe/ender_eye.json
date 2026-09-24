@@ -2,18 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " # ",
-    "#E#",
-    " # "
+    " W ",
+    "POB",
+    " E "
   ],
   "key": {
-    "#": [
-      "minecraft:blaze_powder",
-      "minecraft:echo_shard",
-      "minecraft:wind_charge",
-      "minecraft:prismarine_shard"
-    ],
-    "E": "minecraft:ender_pearl"
+    "B": "minecraft:blaze_powder",
+    "E": "minecraft:echo_shard",
+    "W": "minecraft:wind_charge",
+    "P": "minecraft:prismarine_shard",
+    "O": "minecraft:ender_pearl"
   },
   "result": {
     "id": "minecraft:ender_eye",

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C#",
+    "SDS",
+    "#C#"
+  ],
+  "key": {
+    "#": "minecraft:experience_bottle",
+    "C": "minecraft:cactus",
+    "S": "minecraft:sweet_berries",
+    "D": "progression_reshuffled:dormant_enchanted_book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:thorns": 1
+      }
+    },
+    "count": 1
+  }
+}

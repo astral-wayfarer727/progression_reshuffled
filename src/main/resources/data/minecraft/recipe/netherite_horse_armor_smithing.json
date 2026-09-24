@@ -5,5 +5,5 @@
   "result": {
     "id": "minecraft:netherite_horse_armor"
   },
-  "template": "minecraft:netherrack"
+  "template": "minecraft:netherite_upgrade_smithing_template"
 }

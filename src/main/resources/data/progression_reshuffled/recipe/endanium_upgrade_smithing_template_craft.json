@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#=#",
+    "#D#",
+    "#=#"
+  ],
+  "key": {
+    "#": "minecraft:end_stone",
+    "=": "progression_reshuffled:endanium_ingot",
+    "D": "minecraft:diamond"
+  },
+  "result": {
+    "id": "progression_reshuffled:endanium_upgrade_smithing_template",
+    "count": 1
+  }
+}

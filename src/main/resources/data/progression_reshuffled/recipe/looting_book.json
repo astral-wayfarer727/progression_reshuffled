@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#o#",
+    "=D=",
+    "#o#"
+  ],
+  "key": {
+    "#": "minecraft:experience_bottle",
+    "o": "minecraft:emerald",
+    "=": "minecraft:gold_ingot",
+    "D": "progression_reshuffled:dormant_enchanted_book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:looting": 1
+      }
+    },
+    "count": 1
+  }
+}

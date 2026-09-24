@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "oDo",
+    "#W#"
+  ],
+  "key": {
+    "#": "minecraft:experience_bottle",
+    "W": "minecraft:wind_charge",
+    "o": "minecraft:prismarine_shard",
+    "D": "progression_reshuffled:dormant_enchanted_book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:riptide": 1
+      }
+    },
+    "count": 1
+  }
+}

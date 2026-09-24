@@ -1,18 +1,14 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "ingredients": [
-    "progression_reshuffled:endanium_chunk",
-    "progression_reshuffled:endanium_chunk",
-    "progression_reshuffled:endanium_chunk",
-    "progression_reshuffled:endanium_chunk",
-    "minecraft:diamond",
-    "minecraft:diamond",
-    "minecraft:diamond",
-    "minecraft:diamond"
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "==="
   ],
+  "key": {
+    "#": "progression_reshuffled:endanium_chunk",
+    "=": "minecraft:diamond"
+  },
   "result": {
-    "count": 1,
     "id": "progression_reshuffled:endanium_ingot"
   }
 }

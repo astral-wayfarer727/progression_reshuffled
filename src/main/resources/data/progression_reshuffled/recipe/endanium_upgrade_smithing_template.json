@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "#n#",
+    " # "
+  ],
+  "key": {
+    "N": "progression_reshuffled:endanium_upgrade_smithing_template",
+    "#": "minecraft:diamond",
+    "n": "minecraft:end_stone"
+  },
+  "result": {
+    "id": "progression_reshuffled:endanium_upgrade_smithing_template",
+    "count": 2
+  }
+}

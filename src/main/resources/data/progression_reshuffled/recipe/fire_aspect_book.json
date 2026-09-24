@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#F#",
+    ".D.",
+    "#f#"
+  ],
+  "key": {
+    "#": "minecraft:experience_bottle",
+    "F": "minecraft:fire_charge",
+    ".": "minecraft:blaze_powder",
+    "D": "progression_reshuffled:dormant_enchanted_book",
+    "f": "minecraft:flint"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:fire_aspect": 1
+      }
+    },
+    "count": 1
+  }
+}

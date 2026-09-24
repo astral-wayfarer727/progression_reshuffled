@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#R#",
+    "/D/",
+    "#R#"
+  ],
+  "key": {
+    "#": "minecraft:experience_bottle",
+    "R": "minecraft:rotten_flesh",
+    "/": "minecraft:bone",
+    "D": "progression_reshuffled:dormant_enchanted_book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:smite": 1
+      }
+    },
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#S#",
+    "sDs",
+    "#S#"
+  ],
+  "key": {
+    "#": "minecraft:experience_bottle",
+    "S": "minecraft:soul_soil",
+    "s": "minecraft:soul_sand",
+    "D": "progression_reshuffled:dormant_enchanted_book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:soul_speed": 1
+      }
+    },
+    "count": 1
+  }
+}

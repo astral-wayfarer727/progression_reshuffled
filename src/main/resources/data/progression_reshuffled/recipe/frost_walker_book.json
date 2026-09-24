@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "u#u",
+    "#D#",
+    "u#u"
+  ],
+  "key": {
+    "u": "minecraft:experience_bottle",
+    "#": "minecraft:packed_ice",
+    "D": "progression_reshuffled:dormant_enchanted_book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:frost_walker": 1
+      }
+    },
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#H#",
+    "oDo",
+    "#P#"
+  ],
+  "key": {
+    "#": "minecraft:experience_bottle",
+    "H": "minecraft:heart_of_the_sea",
+    "o": "minecraft:prismarine_shard",
+    "D": "progression_reshuffled:dormant_enchanted_book",
+    "P": "minecraft:pufferfish"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:luck_of_the_sea": 1
+      }
+    },
+    "count": 1
+  }
+}

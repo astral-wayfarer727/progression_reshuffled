@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#L#",
+    "oDo",
+    "#L#"
+  ],
+  "key": {
+    "#": "minecraft:experience_bottle",
+    "L": "#minecraft:lightning_rods",
+    "o": "minecraft:prismarine_shard",
+    "D": "progression_reshuffled:dormant_enchanted_book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:channeling": 1
+      }
+    },
+    "count": 1
+  }
+}

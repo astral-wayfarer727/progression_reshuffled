@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#F#",
+    "NSN"
+  ],
+  "key": {
+    "#": "minecraft:blackstone",
+    "F": "minecraft:furnace",
+    "N": "minecraft:netherite_scrap",
+    "S": "minecraft:soul_soil"
+  },
+  "result": {
+    "count": 1,
+    "id": "progression_reshuffled:advanced_furnace"
+  }
+}

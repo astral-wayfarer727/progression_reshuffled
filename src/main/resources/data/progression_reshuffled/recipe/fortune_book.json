@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#o#",
+    "DdD",
+    "#o#"
+  ],
+  "key": {
+    "#": "minecraft:experience_bottle",
+    "o": "minecraft:emerald",
+    "D": "minecraft:diamond",
+    "d": "progression_reshuffled:dormant_enchanted_book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:fortune": 1
+      }
+    },
+    "count": 1
+  }
+}

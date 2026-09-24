@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#H#",
+    "CDC",
+    "#G#"
+  ],
+  "key": {
+    "#": "minecraft:experience_bottle",
+    "H": "minecraft:heavy_core",
+    "C": "#minecraft:copper",
+    "D": "progression_reshuffled:dormant_enchanted_book",
+    "G": "minecraft:gold_block"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:density": 1
+      }
+    },
+    "count": 1
+  }
+}

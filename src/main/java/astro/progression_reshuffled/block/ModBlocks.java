@@ -2,10 +2,8 @@ package astro.progression_reshuffled.block;
 
 import astro.progression_reshuffled.ProgressionReshuffled;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.MapColor;
+import net.minecraft.block.*;
+import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryKey;
@@ -13,8 +11,7 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 import org.spongepowered.include.com.google.common.base.Function;
 
-import static net.minecraft.block.Blocks.ANCIENT_DEBRIS;
-import static net.minecraft.block.Blocks.NETHERITE_BLOCK;
+import static net.minecraft.block.Blocks.*;
 
 public class ModBlocks {
 
@@ -31,6 +28,9 @@ public class ModBlocks {
             Block::new, AbstractBlock.Settings.copy(ANCIENT_DEBRIS).mapColor(MapColor.PURPLE));
     public static Block ENDANIUM_BLOCK = register("endanium_block",
             Block::new, AbstractBlock.Settings.copy(NETHERITE_BLOCK).mapColor(MapColor.PURPLE));
+    public static Block ADVANCED_FURNACE = register("advanced_furnace",
+            AdvancedFurnaceBlock::new,
+            AbstractBlock.Settings.create().mapColor(MapColor.BLACK).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(4.0F).luminance(createLightLevelFromLitBlockState(8)));
 
     public static void registerBlocks() {
         ProgressionReshuffled.LOGGER.info("Registering Blocks for " + ProgressionReshuffled.MOD_ID);
@@ -40,6 +40,9 @@ public class ModBlocks {
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
             entries.addAfter(Blocks.ANCIENT_DEBRIS, ModBlocks.STELLAR_RUBBLE);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(entries -> {
+            entries.addAfter(Blocks.BLAST_FURNACE, ModBlocks.ADVANCED_FURNACE);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.addAfter(Blocks.ANCIENT_DEBRIS, ModBlocks.STELLAR_RUBBLE);
