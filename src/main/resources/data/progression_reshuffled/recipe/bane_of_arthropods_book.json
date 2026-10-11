@@ -9,7 +9,10 @@
     "#": "minecraft:experience_bottle",
     "S": "minecraft:spider_eye",
     "~": "minecraft:string",
-    "D": "progression_reshuffled:dormant_enchanted_book"
+    "D": [
+      "progression_reshuffled:dormant_enchanted_book",
+      "minecraft:echo_shard"
+    ]
   },
   "result": {
     "id": "minecraft:enchanted_book",

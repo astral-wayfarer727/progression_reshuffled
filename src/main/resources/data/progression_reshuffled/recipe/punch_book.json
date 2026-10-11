@@ -9,7 +9,10 @@
     "#": "minecraft:experience_bottle",
     "/": "minecraft:arrow",
     "W": "minecraft:wind_charge",
-    "D": "progression_reshuffled:dormant_enchanted_book",
+    "D": [
+      "progression_reshuffled:dormant_enchanted_book",
+      "minecraft:echo_shard"
+    ],
     "P": "minecraft:piston"
   },
   "result": {

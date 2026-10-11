@@ -9,7 +9,10 @@
     "#": "minecraft:experience_bottle",
     "S": "minecraft:soul_soil",
     "s": "minecraft:soul_sand",
-    "D": "progression_reshuffled:dormant_enchanted_book"
+    "D": [
+      "progression_reshuffled:dormant_enchanted_book",
+      "minecraft:echo_shard"
+    ]
   },
   "result": {
     "id": "minecraft:enchanted_book",

@@ -8,7 +8,10 @@
   "key": {
     "#": "minecraft:experience_bottle",
     "B": "minecraft:brush",
-    "D": "progression_reshuffled:dormant_enchanted_book",
+    "D": [
+      "progression_reshuffled:dormant_enchanted_book",
+      "minecraft:echo_shard"
+    ],
     "F": "minecraft:flint"
   },
   "result": {

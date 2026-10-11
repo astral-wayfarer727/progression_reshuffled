@@ -9,7 +9,10 @@
     "#": "minecraft:experience_bottle",
     "F": "minecraft:flint",
     "f": "minecraft:feather",
-    "D": "progression_reshuffled:dormant_enchanted_book",
+    "D": [
+      "progression_reshuffled:dormant_enchanted_book",
+      "minecraft:echo_shard"
+    ],
     "/": "minecraft:breeze_rod"
   },
   "result": {

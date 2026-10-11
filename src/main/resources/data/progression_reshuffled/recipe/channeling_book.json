@@ -9,7 +9,10 @@
     "#": "minecraft:experience_bottle",
     "L": "#minecraft:lightning_rods",
     "o": "minecraft:prismarine_shard",
-    "D": "progression_reshuffled:dormant_enchanted_book"
+    "D": [
+      "progression_reshuffled:dormant_enchanted_book",
+      "minecraft:echo_shard"
+    ]
   },
   "result": {
     "id": "minecraft:enchanted_book",

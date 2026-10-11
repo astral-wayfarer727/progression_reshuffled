@@ -9,7 +9,10 @@
     "#": "minecraft:experience_bottle",
     "H": "minecraft:heavy_core",
     "C": "#minecraft:copper",
-    "D": "progression_reshuffled:dormant_enchanted_book",
+    "D": [
+      "progression_reshuffled:dormant_enchanted_book",
+      "minecraft:echo_shard"
+    ],
     "G": "minecraft:gold_block"
   },
   "result": {

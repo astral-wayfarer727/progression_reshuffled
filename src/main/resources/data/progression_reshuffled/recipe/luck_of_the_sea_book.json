@@ -9,7 +9,10 @@
     "#": "minecraft:experience_bottle",
     "H": "minecraft:heart_of_the_sea",
     "o": "minecraft:prismarine_shard",
-    "D": "progression_reshuffled:dormant_enchanted_book",
+    "D": [
+      "progression_reshuffled:dormant_enchanted_book",
+      "minecraft:echo_shard"
+    ],
     "P": "minecraft:pufferfish"
   },
   "result": {

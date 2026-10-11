@@ -9,7 +9,10 @@
     "#": "minecraft:experience_bottle",
     "C": "minecraft:cactus",
     "S": "minecraft:sweet_berries",
-    "D": "progression_reshuffled:dormant_enchanted_book"
+    "D": [
+      "progression_reshuffled:dormant_enchanted_book",
+      "minecraft:echo_shard"
+    ]
   },
   "result": {
     "id": "minecraft:enchanted_book",

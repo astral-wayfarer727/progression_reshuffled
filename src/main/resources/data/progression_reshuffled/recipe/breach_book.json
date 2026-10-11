@@ -9,7 +9,10 @@
     "#": "minecraft:experience_bottle",
     "H": "minecraft:heavy_core",
     "=": "minecraft:tuff_bricks",
-    "D": "progression_reshuffled:dormant_enchanted_book",
+    "D": [
+      "progression_reshuffled:dormant_enchanted_book",
+      "minecraft:echo_shard"
+    ],
     "A": "minecraft:armor_stand"
   },
   "result": {

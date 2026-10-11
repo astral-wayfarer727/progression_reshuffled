@@ -9,7 +9,10 @@
     "#": "minecraft:experience_bottle",
     "F": "minecraft:fire_charge",
     ".": "minecraft:blaze_powder",
-    "D": "progression_reshuffled:dormant_enchanted_book",
+    "D": [
+      "progression_reshuffled:dormant_enchanted_book",
+      "minecraft:echo_shard"
+    ],
     "f": "minecraft:flint"
   },
   "result": {

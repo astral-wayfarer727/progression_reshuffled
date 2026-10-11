@@ -8,7 +8,10 @@
   "key": {
     "u": "minecraft:experience_bottle",
     "#": "minecraft:packed_ice",
-    "D": "progression_reshuffled:dormant_enchanted_book"
+    "D": [
+      "progression_reshuffled:dormant_enchanted_book",
+      "minecraft:echo_shard"
+    ]
   },
   "result": {
     "id": "minecraft:enchanted_book",
